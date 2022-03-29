@@ -1,0 +1,10 @@
+SELECT event_id from users_events
+where user_id = 1;
+
+Vypíše ID všetkých eventov(moje eventy) na ktoré je daný user prihlasený (user_id ide meniť podľa toho pre ktorého usera hľadáme )
+
+
+SELECT events.name from events
+where events.id = 1;
+
+Vypíše názov eventu podľa toho aké dostane ID (Moje eventy)
