@@ -1,0 +1,16 @@
+select name FROM users
+where id = 4;
+
+select gender FROM users
+where id = 4;
+
+select age FROM users
+where id = 4;
+
+select cities.name FROM users
+join cities ON users.city = cities.city_id
+where id = 4;
+
+select cities.name FROM users
+join cities ON users.city = cities.city_id
+where id = 4;
