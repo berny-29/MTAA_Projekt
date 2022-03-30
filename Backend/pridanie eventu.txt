@@ -1,0 +1,37 @@
+pre pridanie eventu si asi musíme zistiť max id eventu .. to zistíme tak že dáme 
+
+Select MAX(id) from events;
+
+
+nasledne puštame 
+
+INSERT INTO events (id,		name,		category,	capacity,	city,		additional_info,	owner,	status)
+	values(	    3,		'coding night'	,1		,10		,2		,'info dajake'		,1	,true)
+
+Chcel som následne aj updatnuť referenčnú tabaľku ale ten zbytočný Id riadok tam robí roblém a nefunguje to nwm prečo +, toto by sa ao vykonať vlastne vždy kd joinuješ event .. ale nejde nwm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO cities(city_id,name)
+values(5, 'Žilina'
