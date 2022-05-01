@@ -210,10 +210,7 @@ app.get("/api/login/:nick_name", async (req, res) => {                    // po 
         console.log (user_id_check);
         res.status(200).json(user_id_check.rows[0]);
 
-
-
     } catch (err) {
-        console.log("Fuuuuck");
         res.status(404).send("404 OOPS");
     }
 })
